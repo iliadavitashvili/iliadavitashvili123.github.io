@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restaurant</title>
+    <link rel="stylesheet" href="./rest.css"/>
+    <script src="./rest.js" type="module">
+
+        
+    </script>
+    
+</head>
+<body>
+    <header>
+        <img src="https://blog.placeit.net/wp-content/uploads/2018/04/fastfoodheader_featured.jpg" alt="">
+        <img src="https://hips.hearstapps.com/delish/assets/cm/15/10/54f65d39ab05d_-_183341797.jpg" alt="">
+        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2014%2F07%2F10%2Fpepperoni-pizza-ck-x.jpg&q=60" alt="">
+    </header>
+    <div id="food-container">   
+        <div class="pizza menu">
+           <p class="menuicon">🍕</p>
+           <form action=""class="menu-text">
+                <h3><span id="span-pizza"></span> Pizza </h3>
+                <h5>peperoni, mozarela, mushroom</h5>
+                <h2>14$</h2>    
+           </form>
+
+           <button type="button" class="menu-btn" id="pizzales">-</button>
+           <button type="button" class="menu-btn" id="pizza">+</button>  
+        </div>
+        <hr>
+        <div class="hamburger menu">
+            <p class="menuicon">🍔</p>
+            <form action="" class="menu-text">
+                <h3><span id="span-hamburger"></span> Hamburger </h3>
+                <h5>Beef, Cheese, Lettuce</h5>
+                <h2>12$</h2>
+            </form>
+                
+            <button type="button" class="menu-btn" id="hamburgerles">-</button>
+            <button  class="menu-btn" type="button" id="hamburger">+</button>
+        </div>
+        <hr>
+
+        <div class="beer menu">
+            <p class="menuicon">🍺</p>
+            <form action=""class="menu-text">
+                <h3><span id="span-beer"></span> Beer </h3>
+                <h5>grain,hops, yeast, water</h5>
+                <h2 >12$</h2>
+            </form>
+           <button type="button" class="menu-btn" id="beerles">-</button>
+           <button  class="menu-btn" id="beer">+</button>
+        </div>
+        <hr>
+        
+    </div>
+    <div id="output">
+        <button id="list-toggle">Show/Hide</button>
+        <div id="shekveta">
+            <div id="your-order">
+                <h2 id="your">Your Order</h2>
+                    
+            
+                
+            </div>
+            <div id="your-food" class="your-food">
+                
+                
+            </div>
+            <div id="total">
+    
+            </div>
+            <button id="complete-order" >Complete Order</button>
+
+        </div>
+        
+        <div id="form">
+            <button type="button" id="close" >Close</button>
+            <h1 >Enter Card Details</h1>
+            
+            <form id="forma">
+                
+                <input type="text" placeholder="Enter Your Name" id="name-input"required>
+                <input type="text"  placeholder="Enter Card Number" id="card-input" minlength="16" required>
+                <input type="text" pattern="[0-9]+" placeholder="Enter CVV" id="cvv-input" minlength="3" maxlength="3"required>
+                <button type="submit" id="pay" >💞Pay💞</button>
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>

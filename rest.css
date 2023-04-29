@@ -1,0 +1,328 @@
+
+body{
+    
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+header{
+    display: flex;
+}
+header > img {
+    height: 100px;
+    display: block;
+    width: 33%;
+    background-repeat: repeat;
+}
+
+#food-container{
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto; 
+   
+   /*                                         //////////////qvemot */
+   
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    
+    text-align: center;
+}
+
+.menuicon{
+    font-size: 50px;
+}
+
+
+
+.menu-btn{
+    width: 50px;
+    height: 50px;
+    
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 125px;
+    background-color: rgba(11, 175, 11, 0.966);
+    color: rgb(64, 85, 6);
+    font-size: 30px;
+}
+.menu-text{
+    width: 150px;
+    /* background-color: red; */
+    margin-right: 50px;
+   
+}
+
+.black{
+    background-color: black;
+}
+.none{
+    display: none;
+    
+}
+
+#your{
+    text-align: center;
+   
+}
+#your-order{
+    /* display: none; */
+}
+
+.pizzadata{
+    display: flex;
+    justify-content: space-between;
+}
+
+.divid{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.divid > h5{
+    color: gray;
+}
+.your-food{
+
+}
+.your-food{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.youra{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+    
+    justify-content: space-between;
+    outline: 2px dashed blue;    
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.menuitem{
+    
+    display:flex;
+    gap: 15px;
+    margin-right: 20px;
+  
+}
+.img{
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* margin-left: 5px; */
+    /* border: 5px dotted brown; */
+}
+.price{
+    right: 50px   ;
+}
+
+#total{
+    border-top: 2px dashed gray;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.pricetag{
+    
+}
+
+#list-toggle{
+    display: flex;
+    margin-left: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aquamarine;
+    color: rgb(36, 136, 103);
+    width: 50%;
+    font-size: 24px;
+    border-radius: 10px;
+    
+    
+}
+#close{
+    
+    width: 100%;
+    height: 50px;
+    background-color: cornflowerblue;
+    font-size: 40px;
+    text-align: center;
+    
+    
+    
+}
+
+#complete-order{
+    
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    display: flex;
+    background-color: rgb(20, 139, 56);
+    width: 100%;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+#shekveta{
+    display: none;
+}
+#pay{
+    font-size: 50px;
+    background-color: palevioletred;
+    color: pink;
+    border-radius: 10px;
+    border-left: 2px solid red;
+    border-top: 2px solid red;
+
+}
+#form{
+    
+    display: none   ;
+    flex-direction: column;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+    
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #667;
+    background-color: #212529;
+    color: whitesmoke;
+    
+}
+.center{   
+    display: inline;
+    
+ }
+ 
+#forma{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    border-radius: 25px;
+    
+}
+
+button{
+    cursor: pointer;
+}
+
+button:active{
+    background-color: burlywood;
+}
+input[type="text"]{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    border-radius: 7px;
+    height: 3rem;
+
+
+}
+input[type="number"]{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 23px;
+    border-radius: 7px;
+
+}
+
+ #output{
+   height: 100%;
+   width: 100%;
+   
+    
+    
+    
+} 
+
+.flexbox{
+    display: flex   ;
+    flex-direction: column;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+    height: 70%;
+    width: 70%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #667;
+    background-color: #0d4175;
+    color: whitesmoke;
+}
+#refresh{
+    border-radius: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: rgb(10, 10, 97);
+    background-color: whitesmoke ;
+    
+    width: 50%;
+    height: 12%;
+    align-self: center;
+    font-size: 24px;
+
+}
+
+#coock{
+    margin-top: 20px;
+    height: 50%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: 5px yellow dashed;
+    
+    
+}
+
+@media screen and (min-width: 768px) {
+    #coock{
+        margin-top: 20px;
+        width: auto;
+        height: auto;
+        width: 33%;
+        border: none;
+    }
+    #output{
+        height: 100%;
+        width: 100%;
+         
+         
+         
+     }
+  }
+
